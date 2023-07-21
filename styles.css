@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ff5a1e;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'sans-serif';
+}
+
+header {
+    color: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+#logo {
+    width: 100%;
+    height: 600px;
+    position: absolute;
+}
+
+svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
+}
+
+
+.bottom-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    padding: 0 10px;
+}
+
+.input-container {
+    width: 100%;
+    max-width: 580px;
+    position: relative;
+}
+
+@media (max-width: 768px) {
+    .input-container {
+        width: 100%;
+        max-width: 360px;
+        position: relative;
+    }
+}
+
+input {
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgb(38, 57, 77) 0 20px 30px -10px;
+    box-sizing: border-box;
+}
+
+#submit-icon {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+
+    cursor: pointer; /* Cambiar el cursor a una mano para indicar interacción */
+    transition: transform 0.2s; /* Agregar una transición suave cuando se aplique el cambio de escala */
+}
+
+  
+  #submit-icon:hover {
+    transform: scale(1.2); /* Escalar el elemento al 120% del tamaño original cuando el cursor esté encima */
+  }
+  
+  #email {
+    text-align: center;
+  }
+
+@media (max-width: 1200px) {
+    body {
+        background-image: url('fondo_mobil.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        background-image: url('fondo_desktop.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+}
