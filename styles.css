@@ -18,6 +18,7 @@ header {
     align-items: center;
     width: 100%;
     justify-content: center;
+    position: fixed;
 }
 
 #logo {
@@ -40,6 +41,8 @@ svg {
     justify-content: center;
     height: 150px;
     padding: 0 10px;
+    position: fixed;
+    bottom: 0;
 }
 
 .input-container {
