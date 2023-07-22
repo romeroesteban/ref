@@ -108,7 +108,10 @@ input {
     }
 
     input {
-        box-shadow: rgb(51, 51, 51) 0 20px 30px -20px;
+        box-shadow: none;
+        border: solid;
+        border-color: #dddddd;
+        border-width: 1px;
     }
 }
 
