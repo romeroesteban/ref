@@ -76,13 +76,13 @@ input {
     font-size: 20px;
     padding: 10px;
     border-radius: 5px;
-    /* box-shadow: rgb(51, 51, 51) 0 20px 30px -10px; */
+    /*box-shadow: rgb(51, 51, 51) 0 20px 30px -10px;*/
+    box-sizing: border-box;
 
     box-shadow: none;
     border: solid;
     border-color: #dddddd;
     border-width: 1px;
-    box-sizing: border-box;
 }
 
 #submit-icon {
