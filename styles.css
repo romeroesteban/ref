@@ -38,6 +38,7 @@ footer {
     position: absolute;
 }
 
+
 svg {
     position: absolute;
     top: 0;
@@ -78,7 +79,6 @@ input {
     border-radius: 5px;
     box-shadow: rgb(51, 51, 51) 0 20px 30px -10px;
     box-sizing: border-box;
-    -webkit-appearance: none;
 }
 
 #submit-icon {
@@ -105,6 +105,10 @@ input {
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
+    }
+
+    input {
+        box-shadow: rgb(51, 51, 51) 0 20px 30px -20px;
     }
 }
 
